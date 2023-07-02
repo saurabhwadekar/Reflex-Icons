@@ -11,6 +11,23 @@ pip install reflex-icons
 pip install reflex-icons --upgrade
 ```
 
+## Add react-icons in rxconfig.py
+```python
+frontend_packages=[
+        "react-icons",
+    ]
+```
+## Use
+```python
+import reflex as rx
+from reflex_icons.BootStrap import BsFill0CircleFill
+
+def index():
+    return pc.box(
+        BsFill0CircleFill()
+    )
+```
+
 
 
 #### [📖 View all Icons ](https://react-icons.github.io/react-icons)
@@ -24,3 +41,5 @@ pip install reflex-icons --upgrade
 
 <h1>❤️ THANK YOU ❤️</h1><br> 
 <h3>If this library is useful to you, don't forget to <b>Star ⭐</b> it</h3>
+
+
