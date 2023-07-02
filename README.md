@@ -23,7 +23,7 @@ import reflex as rx
 from reflex_icons.BootStrap import BsFill0CircleFill
 
 def index():
-    return pc.box(
+    return rx.box(
         BsFill0CircleFill()
     )
 ```
