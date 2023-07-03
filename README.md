@@ -13,9 +13,12 @@ pip install reflex-icons --upgrade
 
 ## Add react-icons in rxconfig.py
 ```python
-frontend_packages=[
+config = rx.Config(
+    ...,
+    frontend_packages=[
         "react-icons",
-    ]
+    ],
+)
 ```
 ## Use
 ```python
